@@ -1,0 +1,92 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0px 0px 0px 0px;
+}
+
+#header-background {
+  background-image: url("images/donation1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 669px;
+  background-position: center;
+  display: flex;
+  justify-content: stretch;
+}
+.fast-div {
+  width: 826px;
+  height: 320px;
+  left: 307px;
+  top: 174px;
+}
+
+.text {
+  color: white;
+  text-align: center;
+}
+.donet-text {
+  font-size: 40px;
+  font-weight: 400;
+}
+.donate-btn {
+  padding: 15px 44px;
+  border-radius: 5px;
+  background-color: #e3fc03;
+  font-size: 18px;
+  font-family: Poppins;
+  font-weight: 600;
+}
+.today-secton {
+  width: 1440px;
+  height: 669px;
+
+  overflow: hidden;
+}
+
+.donate-today {
+  font-size: 30px;
+  font-weight: 300;
+}
+.sub-text {
+  margin-top: -17px;
+  font-size: 14px;
+}
+.donte-many {
+  flex-direction: column;
+  text-align: center;
+
+  width: 826px;
+  height: 320px;
+  left: 307px;
+  top: 80px;
+}
+.mony-box {
+  display: flex;
+  text-align: center;
+  margin-left: 80px;
+}
+.four {
+  border: 2px solid red;
+}
+.sub-box {
+  width: 135px;
+  height: 123px;
+  margin: 10px;
+  background: #fafafa;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 30px;
+
+  text-align: center;
+  margin-top: 40px;
+}
+.other-amount {
+  font-size: 20px;
+  font-weight: 200;
+}
+.hr {
+  border: 1px solid black;
+}
+.t {
+  padding: 7px 13px;
+}
