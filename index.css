@@ -15,9 +15,9 @@ body {
 }
 .fast-div {
   width: 826px;
-  height: 320px;
-  margin-top: 150px;
-  margin-left: 310px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
 }
 
 .text {
@@ -52,7 +52,7 @@ body {
 .donte-many {
   flex-direction: column;
   text-align: center;
-
+  margin-left: 300px;
   width: 826px;
   height: 320px;
   left: 307px;
@@ -170,5 +170,33 @@ body {
   width: 100%;
   height: 130px;
   text-align: center;
+  margin-top: 100px;
+}
+.subscribe {
+  margin-left: 300px;
+  margin-bottom: 200px;
+  width: 809px;
+  height: 200px;
+  border-radius: 10px;
+  background-color: gray;
+}
+.subscribe button {
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 94px;
+  padding: 10px;
+}
+.sub-class-sub {
+  margin-left: 280px;
+}
+.sub-btn {
+  padding: 7px 25px;
+  border-radius: 7px;
+  background-color: orange;
+  font-weight: 200;
+  font-size: 14px;
+}
+.btn-sub {
+  margin-left: 270px;
   margin-top: 100px;
 }
